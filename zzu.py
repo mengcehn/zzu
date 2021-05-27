@@ -82,7 +82,7 @@ def Sendmall():
 
     mail_host = "smtp.qq.com"  # 设置服务器
     mail_user = "1375669090@qq.com"  # 用户名
-    mail_pass = "vzzzgpxotmragdab"  # 口令
+    mail_pass = "**********"  # 口令
 
     sender = '1375669090@qq.com'  ##发邮件账号
     receivers = ['1375669090@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
@@ -113,8 +113,8 @@ def Sendmall():
     except smtplib.SMTPException:
         print("Error: 无法发送邮件")
 if __name__ == "__main__":
-        xuehao = "201978030522"           #学号
-        mima = "245438"                   #密码
+        xuehao = "***********"           #学号
+        mima = "**********"                   #密码
         try:
             auto(xuehao,mima)
             Sendmall()
